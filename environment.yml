@@ -1,0 +1,14 @@
+name: ml_hw1
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - jupyter
+  - seaborn
+prefix: /opt/anaconda3/envs/ml_hw1
